@@ -55,7 +55,7 @@ $(document).ready(function() {
 </div>
 
 <h1>catalog.section</h1>
-<?php Component::callComponent("catalog.section",
+<?php Component::call("catalog.section",
 	"",
 	Array(
 		"TYPE" => "orion_locations",
