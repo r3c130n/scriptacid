@@ -1,0 +1,2 @@
+DATABASE CONNECTION ERROR: <br />
+<?php echo $ERROR_STRING;?><br />

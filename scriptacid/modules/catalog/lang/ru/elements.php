@@ -1,0 +1,31 @@
+<?php namespace ScriptAcid;
+	$LANG["MODULE_CATALOG_ELEMENTS_TITLE"]			=	'Каталоги типа "#TYPE#"';
+	$LANG["MODULE_CATALOG_ELEMENTS_ADD_TEXT"]		=	"Добавить элемент";
+	$LANG["MODULE_CATALOG_ELEMENTS_ADD_TITLE"]		=	"Каталоги: Добавление элемента каталога";
+	$LANG["MODULE_CATALOG_ELEMENTS_EDIT_TITLE"]		=	"Каталоги: Редактирование элемента каталога";
+	$LANG["MODULE_CATALOG_ELEMENTS_DELETE_TITLE"]	=	"Каталоги: Удаление элемента каталога";
+	$LANG["MODULE_CATALOG_ELEMENTS_ID"] = "ID";
+	$LANG["MODULE_CATALOG_ELEMENTS_CODE"] = "Символьный код";
+	$LANG["MODULE_CATALOG_ELEMENTS_CATALOG_ID"] = "ID Каталога";
+	$LANG["MODULE_CATALOG_ELEMENTS_ACTIVE"] = "Активный";
+	$LANG["MODULE_CATALOG_ELEMENTS_TIMESTAMP_X"] = "TIMESTAMP";
+	$LANG["MODULE_CATALOG_ELEMENTS_LIST_PAGE_URL"] = "Шаблон ссылки на список";
+	$LANG["MODULE_CATALOG_ELEMENTS_DETAIL_PAGE_URL"] = "Шаблон ссылки на детальную страницу";
+	$LANG["MODULE_CATALOG_ELEMENTS_SECTION_PAGE_URL"] = "Шаблон ссылки на секцию";
+	$LANG["MODULE_CATALOG_ELEMENTS_SORT"] = "Сортировка";
+	$LANG["MODULE_CATALOG_ELEMENTS_CATALOG_TYPE_ID"] = "Тип каталога";
+	$LANG["MODULE_CATALOG_ELEMENTS_SID"] = "Сайт";
+	$LANG["MODULE_CATALOG_ELEMENTS_NAME"] = "Название";
+	$LANG["MODULE_CATALOG_ELEMENTS_DETAIL_PICTURE"] = "Детальное изображение";
+	$LANG["MODULE_CATALOG_ELEMENTS_DETAIL_TEXT"] = "Детальное описание";
+	$LANG["MODULE_CATALOG_ELEMENTS_DETAIL_TEXT_TYPE"] = "Тип детального описания";
+	$LANG["MODULE_CATALOG_ELEMENTS_PREVIEW_PICTURE"] = "Изображение анонса";
+	$LANG["MODULE_CATALOG_ELEMENTS_PREVIEW_TEXT"] = "Текст анонса";
+	$LANG["MODULE_CATALOG_ELEMENTS_PREVIEW_TEXT_TYPE"] = "Тип текста анонса";
+	$LANG["MODULE_CATALOG_ELEMENTS_CATALOG_SECTION_ID"] = "Раздел каталога";
+	$LANG["MODULE_CATALOG_ELEMENTS_TAGS"] = "Теги";
+	$LANG["MODULE_CATALOG_ELEMENTS_EDIT_TEXT"]		=	"Сохранить";
+	$LANG["MODULE_CATALOG_ELEMENTS_APPLY_TEXT"]		=	"Применить";
+	$LANG["MODULE_CATALOG_ELEMENTS_CANCEL_TEXT"]		=	"Отмена";
+	
+?>

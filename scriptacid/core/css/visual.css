@@ -1,0 +1,128 @@
+.sacid-cmp-edit-form {
+	
+}
+.sacid-cmp-edit-form .sacid-cmp-edit-form-content {
+	
+} 
+	.sacid-cmp-edit-form .sacid-cmp-edit-form-content form {
+		margin: 0;
+		padding: 0;
+	}
+		.sacid-cmp-edit-form .sacid-cmp-edit-form-content form input {
+			width: auto !important;
+			height: auto !important;
+		}
+		.sacid-cmp-edit-form .sacid-cmp-edit-form-content form select {
+			width: auto !important;
+			height: auto !important;
+		}
+		.sacid-cmp-edit-form .sacid-cmp-edit-form-content form textarea {
+			width: auto !important;
+			height: auto !important;
+		}
+	.sacid-cmp-edit-form .sacid-cmp-edit-form-content table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		margin: 0;
+		padding: 0;
+	}
+		.sacid-cmp-edit-form .sacid-cmp-edit-form-content table tr {
+			
+		}
+			.sacid-cmp-edit-form .sacid-cmp-edit-form-content table tr.sacid-cmp-param-group-title td {
+				background: #F0FBFF;
+				text-align: left;
+				padding-left: 20px;
+				font-size: bolder;
+			}
+	.sacid-cmp-edit-form .sacid-cmp-edit-form-messages {
+		font-weight: bolder;
+		color: red;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** OLD-CODE ****************/
+table.dialog-window-form-table select {
+	/*height: 5em !important;*/
+	width: 300px;
+}
+form.dialog-window-form-form {
+	margin: 0;
+}
+
+div#panelCloser {
+	width: 100%;
+	height: 7px;
+	background-color: green;
+	clear: both;
+}
+
+div#siteEditorPanel {
+	background: white;
+	width: 99%;
+	height: 40px;
+	display: none;
+}
+div#siteEditorPanel ul li {
+	display: inline;
+}
+div#siteEditorPanel ul li a {
+	display: block;
+	margin: 5px;
+	padding: 2px 5px 2px 5px;
+	border:  1px dotted blue;
+	float: left;
+}
+
+.page-navigation a.active{
+	border: none;
+	color: #333;
+	font-weight: bold;
+}
+
+
+div.sacid-cmp-edit {
+	
+}
+div.sacid-cmp-edit:hover {
+	
+}
+div.sacid-cmp-edit div.sacid-cmp-edit-panel {
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-style: dotted;
+	border-color:  blue;
+	width: 100px;
+	text-align: center;
+}
+div.sacid-cmp-edit div.sacid-cmp-edit-content {
+	margin: 0;
+	padding: 1px;
+}
+div.sacid-cmp-edit div.sacid-cmp-edit-content:hover,
+div.sacid-cmp-edit div.sacid-cmp-edit-panel:hover + div.sacid-cmp-edit-content {
+	border:  1px dotted blue;
+	padding: 0;
+}

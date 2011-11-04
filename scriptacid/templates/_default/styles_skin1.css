@@ -1,0 +1,17 @@
+/* 
+    Document   : styles_default.css
+    Created on : 19.12.2010, 21:46:01
+    Author     : oltea
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+

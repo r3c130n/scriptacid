@@ -1,0 +1,87 @@
+#content p {
+	color:#333333;
+	font-family:Georgia,"Times New Roman";
+	font-size:14px;
+	line-height:15px;
+	margin:10px 35px 7px;
+	text-align:justify;
+}
+
+div.settings-img {
+	width: 28px !important;
+	height: 16px !important;
+	background-image: url(../images/tiny-route.png) !important;
+	background-position: -1px center !important;
+}
+div.pushed {
+	background-position: -29px center !important;
+}
+span.required {
+	color: red;
+}
+
+div.no-image-pic {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #E4E4E4;
+	text-align: center;
+	font-weight: bold;
+}
+div.no-image-pic span {
+	display: block;
+	margin: 25px 0 0 0;
+}
+
+div.big-img {
+	width: 250px;
+	height: 200px;
+}
+
+div.big-img span {
+	display: block;
+	margin: 85px 0 0 0;
+}
+
+
+div#panelCloser {
+	width: 100%;
+	height: 3px;
+	background-color: green;
+	clear: borh;
+}
+
+div#siteEditorPanel {
+	background: white;
+	width: 99%;
+	height: 40px;
+	display: none;
+}
+div#siteEditorPanel ul li {
+	display: inline;
+}
+div#siteEditorPanel ul li a {
+	display: block;
+	margin: 5px;
+	padding: 2px 5px 2px 5px;
+	border:  1px dotted blue;
+	float: left;
+}
+
+.page-navigation a.active{
+	border: none;
+	color: #333;
+	font-weight: bold;
+}
+
+
+div.sacid-component-container:hover {
+	border:  1px dotted blue;
+	padding: 2px 5px 2px 5px;
+	
+}
+div.sacid-component-container span.sacid-component-container-name {
+	color: green;
+}
+div.sacid-component-container span.sacid-component-container-tpl {
+	color: green;
+}

@@ -1,0 +1,27 @@
+Options -Indexes 
+#ErrorDocument 404 /404.php
+
+php_value display_errors 1
+
+<IfModule mod_mime.c>
+  AddType application/x-httpd-php .ico
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ /system/sef.php [L]
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+#<IfModule mod_expires.c>
+#  ExpiresActive on
+#  ExpiresByType image/jpeg "access plus 3 day"
+#  ExpiresByType image/gif "access plus 3 day"
+#</IfModule>
