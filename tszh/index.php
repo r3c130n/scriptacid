@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 <p><?php ShowMsg()?></p>
 <div id="tszh-edit-form">
-	<?php Component::callComponent("catalog.element.add",
+	<?php Component::call("catalog.element.add",
 		"",
 		Array(
 			"FIELDS" => Array(
